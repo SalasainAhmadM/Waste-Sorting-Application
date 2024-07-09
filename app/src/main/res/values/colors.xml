@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="black2">#010101</color>
+    <color name="loafer">#fbfcf6</color>
+    <color name="mountain_meadow">#23c686</color>
+    <color name="junifer">#7a9295</color>
+    <color name="matrix">#ac5b4d</color>
+    <color name="yellow_orange">#fc9d45</color>
+    <color name="cello">#1d3853</color>
+    <color name="deco">#c5d893</color>
+    <color name="anakiwa">#9fcdfd</color>
+    <color name="japanese_laurel">#099d02</color>
+    <color name="darkgrey">#a9a9a9</color>
+</resources>

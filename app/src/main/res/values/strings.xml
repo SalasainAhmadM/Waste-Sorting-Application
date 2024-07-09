@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Waste Sorting</string>
+    <!-- About Us -->
+    <string name="about_info">Waste Sorting Application is your trusted guide for waste sorting and environmental responsibility. We are passionate about waste reduction and dedicated to helping you make sustainable choices. With our mobile app, you can easily identify, sort, and learn more about waste materials.
+
+\n\nOur Mission:\n
+\nTo empower you with the knowledge to make informed choices about waste disposal, promoting a cleaner and more sustainable environment.
+
+\n\n
+</string>
+    <string name="biodegradable_info">Biodegradable materials disintegrate quickly thanks to the operations of bacteria, fungus, and other living organisms. Biodegradable things often seen in regular use include food waste, tree leaves, and grass clippings. Plant-based products are typically biodegradable.</string>
+    <string name="non_biodegradable_info">Non-biodegradable materials cannot be broken down by natural creatures, they can pollute the environment. These wastes are difficult to deal with. It cannot be broken down by naturally occurring substances and can last for thousands of years on the surface of the earth. The majority of inorganic materials are non-biodegradable.</string>
+
+
+</resources>

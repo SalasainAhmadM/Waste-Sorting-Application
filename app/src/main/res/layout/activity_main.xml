@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loafer"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar" />
+
+    <!-- ImageView for displaying the captured/selected image -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="25dp"
+        android:id="@+id/imageCard"
+        app:cardElevation="1dp"
+        android:backgroundTint="@color/cello"
+        android:layout_marginTop="100sp">
+
+        <!-- Inner Circle CardView (ImageView Inside) -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="15dp"
+            android:backgroundTint="@color/loafer"
+            >
+
+            <!-- ImageView -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:src="@drawable/logo"/>
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Result TextView to display the classification result -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Scan Waste"
+        android:textColor="@color/cello"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="30sp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/result"
+        android:layout_below="@+id/imageCard" />
+
+    <ImageButton
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/trash"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/result"
+        android:layout_marginTop="5dp"/>
+
+    <!-- Bottom buttons or other non-scrollable content -->
+    <include
+        layout="@layout/image_buttons"
+        android:id="@+id/bottomButtons" />
+
+</RelativeLayout>
